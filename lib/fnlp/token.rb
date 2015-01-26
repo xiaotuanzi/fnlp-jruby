@@ -1,5 +1,7 @@
 module FNLP
   class Token
+    attr_reader :word, :tag
+
     def initialize(word, tag)
       @word, @tag = word, tag
     end
